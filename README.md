@@ -204,5 +204,3 @@ If you use this code for your research, please kindly cite:
     ISSN      = {null},
     month     = {July},
 }
-
-Currently, it is not possible to compile the samples on the target device.
