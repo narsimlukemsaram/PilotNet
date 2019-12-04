@@ -1,0 +1,35 @@
+15:57:59 **** Clean-only build of configuration build-host for project DriveNet ****
+make clean 
+make: *** No rule to make target 'clean'.  Stop.
+3:57:59 PM Buildscript generation: DriveNet::build-host in /usr/local/driveworks-0.6/samples-nsight/DriveNet/build-host
+cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Debug -G "Unix Makefiles" /usr/local/driveworks-0.6/samples-nsight/DriveNet 
+-- Found TensorRT:
+--  - Includes: /usr/include/x86_64-linux-gnu
+--  - Libraries: /usr/lib/x86_64-linux-gnu/libnvinfer.so;/usr/lib/x86_64-linux-gnu/libnvcaffe_parser.so
+-- Found libcudnn:
+--  - Includes: /usr/include
+--  - Libraries: /usr/lib/x86_64-linux-gnu/libcudnn.so
+-- Driveworks Samples install dir: /usr/local/driveworks-0.6/samples-nsight/DriveNet/install
+-- Found Driveworks 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /usr/local/driveworks-0.6/samples-nsight/DriveNet
+15:58:00 **** Incremental Build of configuration build-host for project DriveNet ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+3:59:29 PM Buildscript generation: DriveNet::build-host in /usr/local/driveworks-0.6/samples-nsight/DriveNet/build-host
+cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Debug -G "Unix Makefiles" /usr/local/driveworks-0.6/samples-nsight/DriveNet 
+-- Found TensorRT:
+--  - Includes: /usr/include/x86_64-linux-gnu
+--  - Libraries: /usr/lib/x86_64-linux-gnu/libnvinfer.so;/usr/lib/x86_64-linux-gnu/libnvcaffe_parser.so
+-- Found libcudnn:
+--  - Includes: /usr/include
+--  - Libraries: /usr/lib/x86_64-linux-gnu/libcudnn.so
+-- Driveworks Samples install dir: /usr/local/driveworks-0.6/samples-nsight/DriveNet/install
+-- Found Driveworks 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /usr/local/driveworks/samples-nsight/DriveNet
+15:59:29 **** Incremental Build of configuration build-host for project DriveNet ****
+make all 
+make: *** No rule to make target 'all'.  Stop.

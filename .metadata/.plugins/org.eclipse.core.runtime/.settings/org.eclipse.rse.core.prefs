@@ -1,0 +1,4 @@
+activeuserprofiles=Team;carpc3;carpc4
+eclipse.preferences.version=1
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=root
+useridperkey=carpc3.Local\=root;carpc3.nvidia@192.168.8.103\=nvidia;

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 5.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage2">
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="com.nvidia.cuda.ide.nine_zero.configuration.release.47969956" name="Release" parent="com.nvidia.cuda.ide.nine_zero.configuration.release">
+			<folderInfo id="com.nvidia.cuda.ide.nine_zero.configuration.release.47969956." name="/" resourcePath="">
+				<toolChain id="com.nvidia.cuda.ide.toolchain.nine_zero.exe.release.746217705" name="CUDA Toolkit 9.0" superClass="com.nvidia.cuda.ide.toolchain.nine_zero.exe.release">
+					<targetPlatform archList="all" binaryParser="com.nvidia.cuda.ide.elf;com.nvidia.cuda.ide.macho;com.nvidia.cuda.ide.cubin" id="com.nvidia.cuda.ide.targetPlatform.279631873" isAbstract="false" name="Debug Platform" osList="linux,macosx" superClass="com.nvidia.cuda.ide.targetPlatform"/>
+					<builder buildPath="${workspace_loc:/SamplesNsight}/Release" id="com.nvidia.cuda.ide.builder.597713619" managedBuildOn="true" name="CUDA Toolkit 9.0 Builder.Release" superClass="com.nvidia.cuda.ide.builder"/>
+					<tool id="nvcc.compiler.base.2010534667" name="NVCC Compiler" superClass="nvcc.compiler.base">
+						<option id="nvcc.compiler.deviceDebug.6437858" superClass="nvcc.compiler.deviceDebug"/>
+						<option id="nvcc.compiler.option.level.1423906548" superClass="nvcc.compiler.option.level"/>
+						<option defaultValue="nvcc.compiler.optimization.level.most" id="nvcc.compiler.optimization.level.1378683840" superClass="nvcc.compiler.optimization.level" valueType="enumerated"/>
+						<option id="nvcc.compiler.pic.90510453" superClass="nvcc.compiler.pic"/>
+						<inputType id="nvcc.compiler.input.cu.1005979570" superClass="nvcc.compiler.input.cu"/>
+						<inputType id="nvcc.compiler.input.cpp.199300796" superClass="nvcc.compiler.input.cpp"/>
+						<inputType id="nvcc.compiler.input.c.555311156" superClass="nvcc.compiler.input.c"/>
+					</tool>
+					<tool id="nvcc.linker.base.899521596" name="NVCC Linker" superClass="nvcc.linker.base">
+						<inputType id="nvcc.linker.input.2138981183" superClass="nvcc.linker.input">
+							<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+							<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+						</inputType>
+					</tool>
+					<tool id="nvcc.archiver.base.963882877" name="NVCC Archiver" superClass="nvcc.archiver.base"/>
+					<tool id="com.nvidia.host.assembler.1079665320" name="Host Assembler" superClass="com.nvidia.host.assembler">
+						<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1642928436" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+					</tool>
+				</toolChain>
+			</folderInfo>
+		</configuration>
+	</storageModule>
+</cproject>

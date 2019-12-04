@@ -1,0 +1,25 @@
+10:25:47 **** Clean-only build of project PilotNet ****
+/usr/bin/make clean 
+/usr/bin/make -f CMakeFiles/Makefile2 clean
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples-nsight'
+/usr/bin/make -f CMakeFiles/update_cuda_deps.dir/build.make CMakeFiles/update_cuda_deps.dir/clean
+make[2]: Entering directory '/usr/local/driveworks-0.6/samples-nsight'
+/usr/local/bin/cmake -P CMakeFiles/update_cuda_deps.dir/cmake_clean.cmake
+make[2]: Leaving directory '/usr/local/driveworks-0.6/samples-nsight'
+/usr/bin/make -f src/framework/CMakeFiles/dw_samples_framework.dir/build.make src/framework/CMakeFiles/dw_samples_framework.dir/clean
+make[2]: Entering directory '/usr/local/driveworks-0.6/samples-nsight'
+cd /usr/local/driveworks-0.6/samples/src/framework && /usr/local/bin/cmake -P CMakeFiles/dw_samples_framework.dir/cmake_clean.cmake
+make[2]: Leaving directory '/usr/local/driveworks-0.6/samples-nsight'
+/usr/bin/make -f src/egomotion/CMakeFiles/sample_egomotion.dir/build.make src/egomotion/CMakeFiles/sample_egomotion.dir/clean
+make[2]: Entering directory '/usr/local/driveworks-0.6/samples-nsight'
+make[2]: Leaving directory '/usr/local/driveworks-0.6/samples-nsight'
+CMakeFiles/Makefile2:201: recipe for target 'src/egomotion/CMakeFiles/sample_egomotion.dir/clean' failed
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples-nsight'
+make[2]: src/egomotion/CMakeFiles/sample_egomotion.dir/build.make: No such file or directory
+Makefile:134: recipe for target 'clean' failed
+make[2]: *** No rule to make target 'src/egomotion/CMakeFiles/sample_egomotion.dir/build.make'.  Stop.
+make[1]: *** [src/egomotion/CMakeFiles/sample_egomotion.dir/clean] Error 2
+make: *** [clean] Error 2
+
+10:25:48 Build Finished (took 263ms)
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 5.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage2">
+	<storageModule buildDir="${ConfigName}" moduleId="de.marw.cdt.cmake.core.settings">
+		<options/>
+		<defs>
+			<def name="CMAKE_BUILD_TYPE" type="STRING" val="Debug"/>
+			<def name="CMAKE_TOOLCHAIN_FILE" type="FILEPATH" val="/usr/local/driveworks/PilotNet/cmake/Toolchain-V4L.cmake"/>
+			<def name="VIBRANTE_PDK" type="PATH" val="/home/ubuntu/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux"/>
+		</defs>
+	</storageModule>
+</cproject>

@@ -1,0 +1,33 @@
+15:32:16 **** Incremental Build of project SamplesNsight ****
+/usr/bin/make all 
+/usr/local/bin/cmake -H/usr/local/driveworks-0.6/samples -B/usr/local/driveworks-0.6/samples --check-build-system CMakeFiles/Makefile.cmake 0
+-- Found TensorRT:
+--  - Includes: /usr/include/x86_64-linux-gnu
+--  - Libraries: /usr/lib/x86_64-linux-gnu/libnvinfer.so;/usr/lib/x86_64-linux-gnu/libnvcaffe_parser.so
+-- Found libcudnn:
+--  - Includes: /usr/include
+--  - Libraries: /usr/lib/x86_64-linux-gnu/libcudnn.so
+-- Driveworks Samples install dir: /usr/local/driveworks-0.6/samples/install
+-- Found Driveworks 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /usr/local/driveworks-0.6/samples
+/usr/local/bin/cmake -E cmake_progress_start /usr/local/driveworks-0.6/samples/CMakeFiles /usr/local/driveworks-0.6/samples/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples-nsight'
+/usr/bin/make -f CMakeFiles/update_cuda_deps.dir/build.make CMakeFiles/update_cuda_deps.dir/depend
+make[2]: Entering directory '/usr/local/driveworks-0.6/samples-nsight'
+cd /usr/local/driveworks-0.6/samples && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/driveworks-0.6/samples /usr/local/driveworks-0.6/samples /usr/local/driveworks-0.6/samples /usr/local/driveworks-0.6/samples /usr/local/driveworks-0.6/samples/CMakeFiles/update_cuda_deps.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/usr/local/driveworks-0.6/samples-nsight'
+/usr/bin/make -f CMakeFiles/update_cuda_deps.dir/build.make CMakeFiles/update_cuda_deps.dir/build
+make[2]: Entering directory '/usr/local/driveworks-0.6/samples-nsight'
+make[2]: *** No rule to make target 'src/image/image_common/utils.cu', needed by 'src/image/image_common/CMakeFiles/dw_samples_image_common.dir/gen_utils.cu.o.depend.stamp'.  Stop.
+make[2]: Leaving directory '/usr/local/driveworks-0.6/samples-nsight'
+make[1]: *** [CMakeFiles/update_cuda_deps.dir/all] Error 2
+make: *** [all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/update_cuda_deps.dir/all' failed
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples-nsight'
+Makefile:127: recipe for target 'all' failed
+
+15:32:17 Build Finished (took 759ms)
+

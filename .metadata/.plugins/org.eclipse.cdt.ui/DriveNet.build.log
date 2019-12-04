@@ -1,0 +1,6 @@
+15:59:29 **** Incremental Build of configuration build-host for project DriveNet ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+
+15:59:29 Build Finished (took 274ms)
+

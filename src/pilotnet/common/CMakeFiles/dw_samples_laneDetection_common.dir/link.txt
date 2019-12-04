@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdw_samples_laneDetection_common.a  CMakeFiles/dw_samples_laneDetection_common.dir/LaneDetectionCommon.cpp.o
+/usr/bin/ranlib libdw_samples_laneDetection_common.a

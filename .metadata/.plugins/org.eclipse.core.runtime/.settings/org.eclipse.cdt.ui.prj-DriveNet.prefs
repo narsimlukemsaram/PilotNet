@@ -1,0 +1,3 @@
+buildConsole/keepLog=true
+buildConsole/logLocation=/usr/local/driveworks-0.6/samples-nsight/.metadata/.plugins/org.eclipse.cdt.ui/DriveNet.build.log
+eclipse.preferences.version=1
